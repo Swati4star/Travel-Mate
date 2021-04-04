@@ -22,7 +22,7 @@ public class CardViewOptionsAdapter
     private final List<CardItemEntity> mOptionsEntityList;
 
     /**
-     * Initializes new CarViewoptions adapter
+     * Initializes new CardViewoptions adapter
      *
      * @param mOnItemClickListener the onclick listener for the cardview items
      * @param mOptionsEntityList   the list of entities to be populated in view
