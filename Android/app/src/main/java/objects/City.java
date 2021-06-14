@@ -41,6 +41,8 @@ public class City implements Serializable {
     public String mNickname;
     @ColumnInfo (name = "city_description")
     public String mDescription;
+    @ColumnInfo (name = "country")
+    public String mCountry;
 
     public City() {
     }
@@ -137,4 +139,13 @@ public class City implements Serializable {
     public void setFavouriteCity(int mFavouriteCity) {
         this.mFavouriteCity = mFavouriteCity;
     }
+
+	public String getCountry() {
+		return mCountry;
+	}
+
+	public void setCountry(String mCountry) {
+		this.mCountry = mCountry;
+	}
+    
 }

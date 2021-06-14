@@ -32,4 +32,7 @@ public interface CityDao {
 
     @Query("DELETE FROM city")
     void deleteAll();
+    
+    @Query("Select * FROM city WHERE country = :country")
+    City[] loadCitiesInCountry(String country);
 }
